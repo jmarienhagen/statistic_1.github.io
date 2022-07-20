@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="de">
+<!--GENERIERT MIT:  Lectora Publisher v.16.1.1(10553) (http://www.trivantis.com) -->
+
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1009" />
+<title>Boxplot</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" href="trivantis.css" type="text/css" />
+<link rel="stylesheet" href="dialog.css" type="text/css" />
+
+<link rel="stylesheet" href="trivantis-player.css" type="text/css" />
+<style type="text/css">
+  body { background-color:#ffffff; }
+</style>
+
+<!--[if lt IE 7]>
+<style type="text/css">
+    #image55093 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image55093 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/05-11-_2014_15-07-19.png',sizingMethod='scale'); }
+    #image70532 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image70532 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/carrie_pointingdownleft.png',sizingMethod='scale'); }
+</style>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script>
+document.namespaces.add('v', 'urn:schemas-microsoft-com:vml', "#default#VML")
+</script>
+<![endif]-->
+
+<script src="trivantis.js"></script>
+<script src="trivantis-timedate.js"></script>
+<script src="trivantis-cookie.js"></script>
+<script src="trivantis-button.js"></script>
+<script src="trivantis-image.js"></script>
+<script src="trivantis-inline.js"></script>
+<script src="trivantis-media.js"></script>
+<script src="trivantis-mep.min.js"></script>
+<script src="trivantis-pagetracking.js"></script>
+<script src="trivantis-dialog.js"></script>
+<script src="trivantis-strings.js" charset="UTF-8"></script>
+<script>
+
+<!-- 
+trivWeb20Popups = true;
+
+var arObjs = [];
+if( !is.min )
+  document.write( 'Ihr Browser unterstützt kein dynamisches HTML. Bitte laden Sie eine aktuelle Version von entweder <a href=http://www.microsoft.com/ie/>Microsoft Internet Explorer</a> oder <a href="http://www.mozilla.com/en-US/firefox/">Mozilla Firefox </a> herunter und versuchen Sie erneut, unsere Website zu besuchen.  Vielen Dank.<br /><br />' )
+
+var pageLayer = null
+var winW = screen.width
+var winH = screen.height
+var transformScale = 1
+
+function findWH(){	//echo LD-769
+	if (is.ie) {
+   winW = Math.max(Math.max(document.body.scrollWidth, document.documentElement.scrollWidth)-16,
+					  Math.max(document.body.offsetWidth, document.documentElement.offsetWidth)-16,
+					  Math.max(document.body.clientWidth, document.documentElement.clientWidth)-16 );
+   winH = Math.max(Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)-16,
+					  Math.max(document.body.offsetHeight, document.documentElement.offsetHeight)-16,
+					  Math.max(document.body.clientHeight, document.documentElement.clientHeight)-16 );
+	}
+	else
+	{
+   winW =  document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+   if(is.iOS && (navigator.userAgent.indexOf('CellCast-iPad') != -1 || navigator.userAgent.indexOf('CellCast-iPhone') != -1) )
+		 winW =  getScreenWidth();
+   winH =  document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight;
+	}
+}
+
+function ReFlow() {
+  findWH()
+  var left = (winW > 1009) ? (winW-1009)/2 : 0
+  if (pageLayer)
+  {
+    pageLayer.moveTo( left, 0 );
+    pageLayer.hasMoved = true;
+    pageLayer.newX = left;
+    pageLayer.newY = 0;
+  }
+}
+
+
+onload = init
+if( is.webkit && !is.iOSSafari )
+  onbeforeunload = finish
+else
+  onunload = finish
+
+function init() {
+  findWH()
+  if( is.min ){
+    trivPageTracking.InitPageTracking();
+    setTimeout( "preload( 'images/boxplot1.jpg','images/eqn013_39376.gif','images/carrie_pointingdownleft.png','images/05-11-_2014_15-07-19.png','images/button90580.png','images/button90580_over.png','images/button90580_down.png','images/button90580_disabled.png','images/text41.png','images/button70679.png','images/button70679_over.png','images/button70679_down.png','images/button70679_disabled.png','images/shape70477.png' )", 0 )
+    pageLayer = new ObjLayer( 'pageDIV' );
+    pageLayer.show();
+    button90580.init()
+    text41.init()
+    audio70558.init()
+    button70679.init()
+    equation70519.init()
+    image55093.init()
+    image70532.init()
+    image70500.init()
+    shape70477.init()
+    button90580.activate()
+    text41.activate()
+    audio70558.activate()
+    button70679.activate()
+    equation70519.activate()
+    image55093.activate()
+    image70532.activate()
+    image70500.activate()
+    shape70477.activate()
+    ReFlow();
+    window.scrollTo(0,1);
+    var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
+    if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
+    if ( trivPageTracking.GetRangeStatus(70470) == 'notstarted' ) trivPageTracking.SetRangeStatus(70470,2);
+    if( location.hash )
+    {
+      var newHash
+      if( location.hash.charAt(0) == '#' )
+        newHash = location.hash.slice( 1 )
+      else
+        newHash = location.hash
+      location.hash = newHash
+    }
+    setTimeout( 'trivUpdateTOC( 1 )', 100 )
+  }
+}
+
+var trivGoToPage = null
+var trivCompleteCnt = 1;
+var hasProcessedExitActions = false;
+var trivActFBCnt = 0;
+var currFeedbackIdx = 0;
+var trivPageExited = false;
+
+function finish() {
+}
+
+function trivOnFocus() {
+    if( trivPageExited ) return
+}
+
+function checkLeavePage() {
+    if( trivPageExited ) return
+    if( trivActFBCnt == 0 )
+    {
+        currFeedbackIdx++;
+        if( currFeedbackIdx > -1)
+        {
+            trivLeavePage();
+          return;
+        }
+        else if( !checkQuestions( true ))
+          return;
+    }
+    setTimeout( 'checkLeavePage()', 100)
+}
+
+function trivExitPage( newPage, bFeedback ) {
+    if( newPage.indexOf( "ObjLayerAction" ) >= 0 || newPage.indexOf( "javascript:app." ) >= 0 || newPage.indexOf( ".action" ) >= 0 || newPage.indexOf( "history.back()" ) >= 0) trivGoToPage = newPage
+    else trivGoToPage = 'ObjLayerActionGoTo("' + newPage + '")'
+    if( !hasProcessedExitActions ) {
+        findWH()
+        hasProcessedExitActions = true
+        setTimeout( 'checkLeavePage()', 100)
+    }
+}
+
+function trivLeavePage() {
+    trivCompleteCnt--
+    if( trivCompleteCnt <= 0 ) {
+        hasProcessedExitActions = false
+        if( trivGoToPage != null )
+        {
+			eval( trivGoToPage )
+			trivGoToPage = null;
+			if( window.closed ) trivPageExited = true;
+        }
+    }
+}
+
+function trivPrevPage() {
+    trivExitPage( 'page48830.html', true )
+}
+
+function trivNextPage() {
+    trivExitPage( 'page71133.html', true )
+}
+
+function trivUpdateTOC( bRecurse ) {
+    var i
+}
+
+function trivUpdateEntry() {
+}
+
+function trivResetEntry(entFld) {
+}
+
+function OnDeviceRotate() {
+
+}
+
+function action90585(fn){
+    {cleanupTitle('medizinische_biometrie'); trivExitPage('ObjLayerActionExit()',false);} 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button90580onUp() {
+  action90585();
+}
+
+function action71020(fn){
+    trivExitPage('page89472.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button70679onUp() {
+  action71020();
+}
+
+function action70501(fn){
+    if(!document.getElementById("DLG_Div_70500"))trivAlert( '70500', 'Medizinische Biometrie', '5- Punkte- Zusammenfassung von n= 150 Schmerzscores von 0 bis 10.', fn );
+}
+
+function image70500onUp() {
+  action70501(function(){/*TRIVDLGCALLBACKS*/});
+}
+
+if( is.min ){
+button90580 = new ObjButton('button90580', 'Schaltflächen 2',700,600,131.00,21.00,1,19,'div','',1,'',0)
+button90580.setFillStyle(0)
+button90580.initRotateAngle(0,0,0,-0.00,-0.00,130,20)
+button90580.initHasShadow(0)
+button90580.initHasReflection(0)
+button90580.setImages('images/button90580.png', 'images/button90580_down.png', 'images/button90580_over.png','images/button90580_disabled.png');
+button90580.setStateOpacity( 1.00, 1.00, 1.00, 0.60 );
+button90580.addIe8Attr(700.00, 600.00, 131.00, 21.00, 0, 0)
+button90580.addOpacity(100)
+button90580.initImageMap('5,0,125,0,127,0,129,2,130,3,130,5,130,15,130,17,129,19,127,20,125,20,5,20,3,20,2,19,0,17,0,15,0,5,0,3,2,2,3,0,5,0','M 5.00 0.00 L 125.00 0.00 L 126.94 0.38 L 128.56 1.50 L 129.63 3.06 L 130.00 5.00 L 130.00 15.00 L 129.63 16.94 L 128.56 18.56 L 126.94 19.63 L 125.00 20.00 L 5.00 20.00 L 3.13 19.63 L 1.50 18.56 L 0.38 16.94 L 0.00 15.00 L 0.00 5.00 L 0.38 3.06 L 1.50 1.50 L 3.06 0.38 L 5.00 0.00 z')
+button90580.onUp = button90580onUp
+button90580.hasOnUp = true
+button90580.capture=4
+button90580.build()
+
+text41 = new ObjImage('text41','images/text41.png','Einführung in die medizinische Statistik  Deskriptive und explorative Datenanalyse I',100,50,818,81,1,20,'div',null,0 )
+text41.initRotateAngle(0,0,0)
+text41.initHasShadow(0)
+text41.addIe8Attr(100, 50, 818, 81, 0, 0)
+text41.addBorder(0)
+text41.addOpacity(100)
+text41.build()
+
+audio70558 = new ObjMedia('audio70558','Boxplot2',280,476,300,24,1,21,'media/boxplot2.mp3',0,1,0,0,1,0.80,1,'div', 0 );
+audio70558.BuildMediaString()
+audio70558.build()
+
+button70679 = new ObjButton('button70679', 'Schaltflächen',350,550,243.00,37.00,1,22,'div','',1,'',0)
+button70679.setFillStyle(1)
+button70679.initRotateAngle(0,0,0,-0.00,-0.00,242,36)
+button70679.initHasShadow(0)
+button70679.initHasReflection(0)
+button70679.setImages('images/button70679.png', 'images/button70679_down.png', 'images/button70679_over.png','images/button70679_disabled.png');
+button70679.setStateOpacity( 1.00, 1.00, 1.00, 0.60 );
+button70679.addIe8Attr(350.00, 550.00, 243.00, 37.00, 0, 0)
+button70679.addOpacity(100)
+button70679.initImageMap('9,0,233,0,235,0,237,1,239,3,241,6,242,9,242,27,241,31,239,33,237,35,233,36,9,36,6,35,3,33,1,31,0,27,0,9,0,7,1,6,3,3,6,1,7,0,9,0','M 9.00 0.00 L 233.00 0.00 L 234.81 0.19 L 236.50 0.69 L 239.38 2.63 L 241.31 5.50 L 242.00 9.00 L 242.00 27.00 L 241.31 30.50 L 239.38 33.38 L 236.50 35.31 L 233.00 36.00 L 9.00 36.00 L 5.56 35.31 L 2.69 33.38 L 0.69 30.50 L 0.00 27.00 L 0.00 9.00 L 0.19 7.19 L 0.69 5.50 L 2.63 2.63 L 5.50 0.69 L 7.19 0.19 L 9.00 0.00 z')
+button70679.onUp = button70679onUp
+button70679.hasOnUp = true
+button70679.capture=4
+button70679.build()
+
+equation70519 = new ObjImage('equation70519','images/eqn013_39376.gif','eqn013',568,310,13,22,1,23,'div',null, 0 )
+equation70519.build()
+
+image55093 = new ObjImage('image55093','images/05-11-_2014_15-07-19.png','Das Kurslogo!',640,8,200,105,1,5,'div',null, 0 )
+image55093.initRotateAngle(0,0,0,0,0,0,0)
+image55093.initHasShadow(0)
+image55093.initHasReflection(0)
+image55093.addIe8Attr(640, 8, 200, 105, 0, 0)
+image55093.initImageMap(1,'0,0,200,0,200,105,0,105,0,0','M 0 0 L 200 0 L 200 105 L 0 105 L 0 0 z')
+image55093.addBorder(0)
+image55093.addOpacity(100)
+image55093.build()
+
+image70532 = new ObjImage('image70532','images/carrie_pointingdownleft.png','anna',610,170,217,326,1,6,'div',null, 0 )
+image70532.initRotateAngle(0,0,0,0,0,0,0)
+image70532.initHasShadow(0)
+image70532.initHasReflection(0)
+image70532.addIe8Attr(610, 170, 217, 326, 0, 0)
+image70532.initImageMap(1,'0,0,217,0,217,326,0,326,0,0','M 0 0 L 217 0 L 217 326 L 0 326 L 0 0 z')
+image70532.addBorder(0)
+image70532.addOpacity(100)
+image70532.build()
+
+image70500 = new ObjImage('image70500','images/boxplot1.jpg','Boxplot1',243,181,367,282,1,7,'div',null, 0 )
+image70500.initRotateAngle(0,0,0,0,0,0,0)
+image70500.initHasShadow(0)
+image70500.initHasReflection(0)
+image70500.addIe8Attr(243, 181, 367, 282, 0, 0)
+image70500.initImageMap(1,'0,0,367,0,367,282,0,282,0,0','M 0 0 L 367 0 L 367 282 L 0 282 L 0 0 z')
+image70500.addBorder(0)
+image70500.addOpacity(100)
+image70500.onUp = image70500onUp
+image70500.hasOnUp = true
+image70500.capture=4
+image70500.build()
+
+shape70477 = new ObjImage('shape70477','images/shape70477.png','Rechteck2',100,130,750.00,5.00,1,8,'div','',0 )
+shape70477.initRotateAngle(0,0,0,-0.00,-0.00,750,5)
+shape70477.initHasShadow(0)
+shape70477.initHasReflection(0)
+shape70477.addIe8Attr(100.00, 130.00, 750.00, 5.00, 0, 0)
+shape70477.initImageMap(1,'0,5,750,5,750,0,0,0,0,5','M 0.00 5.00 L 750.00 5.00 L 750.00 0.00 L 0.00 0.00 L 0.00 5.00 z')
+shape70477.addBorder(0)
+shape70477.addOpacity(100)
+shape70477.build()
+
+arObjs.push(button90580);
+arObjs.push(text41);
+arObjs.push(audio70558);
+arObjs.push(button70679);
+arObjs.push(equation70519);
+arObjs.push(image55093);
+arObjs.push(image70532);
+arObjs.push(image70500);
+arObjs.push(shape70477);
+
+
+writeStyleSheets(arObjs);}
+// -->
+
+</script>
+</head>
+
+<body onfocus="trivOnFocus()" onResize="ReFlow()">
+
+<script>
+if( is.min ){
+    findWH()
+    var left = (winW > 1009) ? (winW-1009)/2 : 0
+    document.write('<style type="text/css">#pageDIV { position: absolute; top:0px; left: ' + left + 'px; width:1009px; height:662px; clip:rect(0px 1009px 662px 0px); overflow:hidden;' )
+    if(is.iOS)
+		document.write('-webkit-text-size-adjust:100%;')
+    document.write('} </style>')
+    document.write('<DIV id=\"pageDIV\">')
+}
+</script>
+
+<script>
+if( is.min ){
+    document.write(button90580.div)
+    document.write(text41.div)
+    document.write(audio70558.div)
+    document.write(button70679.div)
+    document.write(equation70519.div)
+    document.write(image55093.div)
+    document.write(image70532.div)
+    document.write(image70500.div)
+    document.write(shape70477.div)
+    document.write("</DIV>")
+}
+</script>
+
+</body>
+</html>

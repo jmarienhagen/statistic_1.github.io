@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="de">
+<!--GENERIERT MIT:  Lectora Publisher v.16.1.1(10553) (http://www.trivantis.com) -->
+
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1009" />
+<title>Datenimport</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" href="trivantis.css" type="text/css" />
+
+<link rel="stylesheet" href="trivantis-player.css" type="text/css" />
+<style type="text/css">
+  body { background-color:#ffffff; }
+    span.menu2278Font1 { color:#333333; font-size:13px; font-family:"Verdana", sans-serif; align:center; text-align:left; line-height:100%; vertical-align:baseline;}
+    span.menu2278Font2 { color:#333333; font-size:11px; font-family:"Verdana", sans-serif; align:center; text-align:left; line-height:100%; vertical-align:baseline;}
+</style>
+
+<!--[if lt IE 7]>
+<style type="text/css">
+    #image55093 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image55093 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/05-11-_2014_15-07-19.png',sizingMethod='scale'); }
+</style>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script>
+document.namespaces.add('v', 'urn:schemas-microsoft-com:vml', "#default#VML")
+</script>
+<![endif]-->
+
+<script src="trivantis.js"></script>
+<script src="trivantis-timedate.js"></script>
+<script src="trivantis-cookie.js"></script>
+<script src="trivantis-button.js"></script>
+<script src="trivantis-image.js"></script>
+<script src="trivantis-progress.js"></script>
+<script src="trivantis-inline.js"></script>
+<script src="trivantis-text.js"></script>
+<script src="trivantis-media.js"></script>
+<script src="trivantis-mep.min.js"></script>
+<script src="trivantis-menu.js"></script>
+<script src="trivantis-pagetracking.js"></script>
+<script>
+
+<!-- 
+trivWeb20Popups = true;
+
+var arObjs = [];
+if( !is.min )
+  document.write( 'Ihr Browser unterstützt kein dynamisches HTML. Bitte laden Sie eine aktuelle Version von entweder <a href=http://www.microsoft.com/ie/>Microsoft Internet Explorer</a> oder <a href="http://www.mozilla.com/en-US/firefox/">Mozilla Firefox </a> herunter und versuchen Sie erneut, unsere Website zu besuchen.  Vielen Dank.<br /><br />' )
+
+var pageLayer = null
+var winW = screen.width
+var winH = screen.height
+var transformScale = 1
+
+function findWH(){	//echo LD-769
+	if (is.ie) {
+   winW = Math.max(Math.max(document.body.scrollWidth, document.documentElement.scrollWidth)-16,
+					  Math.max(document.body.offsetWidth, document.documentElement.offsetWidth)-16,
+					  Math.max(document.body.clientWidth, document.documentElement.clientWidth)-16 );
+   winH = Math.max(Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)-16,
+					  Math.max(document.body.offsetHeight, document.documentElement.offsetHeight)-16,
+					  Math.max(document.body.clientHeight, document.documentElement.clientHeight)-16 );
+	}
+	else
+	{
+   winW =  document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+   if(is.iOS && (navigator.userAgent.indexOf('CellCast-iPad') != -1 || navigator.userAgent.indexOf('CellCast-iPhone') != -1) )
+		 winW =  getScreenWidth();
+   winH =  document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight;
+	}
+}
+
+function ReFlow() {
+  findWH()
+  var left = (winW > 1009) ? (winW-1009)/2 : 0
+  if (pageLayer)
+  {
+    pageLayer.moveTo( left, 0 );
+    pageLayer.hasMoved = true;
+    pageLayer.newX = left;
+    pageLayer.newY = 0;
+  }
+}
+
+
+VarCurrentChapterName = new Variable( 'VarCurrentChapterName', null, 0, 0, null, null, 'medizinische_biometrie' )
+VarCurrentChapterName.set( 'Praktische Statistik mit R' )
+VarCurrentSectionName = new Variable( 'VarCurrentSectionName', null, 0, 0, null, null, 'medizinische_biometrie' )
+VarCurrentSectionName.set( null )
+VarCurrentPageName = new Variable( 'VarCurrentPageName', null, 0, 0, null, null, 'medizinische_biometrie' )
+VarCurrentPageName.set( 'Datenimport' )
+VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, 365, 'medizinische_biometrie', false )
+
+onload = init
+if( is.webkit && !is.iOSSafari )
+  onbeforeunload = finish
+else
+  onunload = finish
+
+function init() {
+  findWH()
+  if( is.min ){
+    trivPageTracking.InitPageTracking();
+    setTimeout( "preload( 'images/statuscheck_ip.png','images/statuscheck_ns.png','images/statuscheck.png','images/05-11-_2014_15-07-19.png','MediaPlayer/trivantis-whotube-skin.css','MediaPlayer/Sprites/control-whotube.png','images/roger_pointingmiddleleftcrop_image85812.png','images/button90580.png','images/button90580_over.png','images/button90580_down.png','images/button90580_disabled.png','images/shape62100.png','images/progress35130.png','images/progress35130_bar.png','images/text41.png','images/button91431.png','images/button91431_over.png','images/button91431_down.png','images/button91431_disabled.png','images/shape62100.png','images/button19606.png','images/button19606_over.png','images/button19606_down.png','images/button19606_disabled.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png','images/shape62100.png' )", 0 )
+    pageLayer = new ObjLayer( 'pageDIV' );
+    pageLayer.show();
+    button91431.init()
+    button90580.init()
+    shape62100.init()
+    button19606.init()
+    text2435.init()
+    menu2278.init()
+    menu2278_1.init()
+    menu2278_2.init()
+    menu2278_3.init()
+    menu2278_4.init()
+    menu2278_5.init()
+    menu2278_6.init()
+    menu2278_7.init()
+    progress35130.init()
+    text41.init()
+    image55093.init()
+    image85812.init()
+    text83323.init()
+    text82174.init()
+    video82159.init()
+    button91431.activate()
+    button90580.activate()
+    shape62100.activate()
+    button19606.activate()
+    text2435.activate()
+    menu2278.activate()
+    menu2278_1.activate()
+    menu2278_2.activate()
+    menu2278_3.activate()
+    menu2278_4.activate()
+    menu2278_5.activate()
+    menu2278_6.activate()
+    menu2278_7.activate()
+    progress35130.activate()
+    text41.activate()
+    image55093.activate()
+    image85812.activate()
+    text83323.activate()
+    text82174.activate()
+    video82159.activate()
+    ReFlow();
+    window.scrollTo(0,1);
+    var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
+    if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
+    action2436();action2437();action2438();action2439();
+    if ( trivPageTracking.GetRangeStatus(35231) == 'notstarted' ) trivPageTracking.SetRangeStatus(35231,2);
+    UpdateIndicators();
+    if( location.hash )
+    {
+      var newHash
+      if( location.hash.charAt(0) == '#' )
+        newHash = location.hash.slice( 1 )
+      else
+        newHash = location.hash
+      location.hash = newHash
+    }
+    setTimeout( 'trivUpdateTOC( 1 )', 100 )
+  }
+}
+
+var trivGoToPage = null
+var trivCompleteCnt = 1;
+var hasProcessedExitActions = false;
+var trivActFBCnt = 0;
+var currFeedbackIdx = 0;
+var trivPageExited = false;
+
+function finish() {
+}
+
+function trivOnFocus() {
+    if( trivPageExited ) return
+}
+
+function checkLeavePage() {
+    if( trivPageExited ) return
+    if( trivActFBCnt == 0 )
+    {
+        currFeedbackIdx++;
+        if( currFeedbackIdx > -1)
+        {
+            trivLeavePage();
+          return;
+        }
+        else if( !checkQuestions( true ))
+          return;
+    }
+    setTimeout( 'checkLeavePage()', 100)
+}
+
+function trivExitPage( newPage, bFeedback ) {
+    if( newPage.indexOf( "ObjLayerAction" ) >= 0 || newPage.indexOf( "javascript:app." ) >= 0 || newPage.indexOf( ".action" ) >= 0 || newPage.indexOf( "history.back()" ) >= 0) trivGoToPage = newPage
+    else trivGoToPage = 'ObjLayerActionGoTo("' + newPage + '")'
+    if( !hasProcessedExitActions ) {
+        findWH()
+        hasProcessedExitActions = true
+        setTimeout( 'checkLeavePage()', 100)
+    }
+}
+
+function trivLeavePage() {
+    trivCompleteCnt--
+    if( trivCompleteCnt <= 0 ) {
+        hasProcessedExitActions = false
+        if( trivGoToPage != null )
+        {
+			eval( trivGoToPage )
+			trivGoToPage = null;
+			if( window.closed ) trivPageExited = true;
+        }
+    }
+}
+
+function trivPrevPage() {
+    trivExitPage( 'page35230.html', true )
+}
+
+function trivNextPage() {
+    trivExitPage( 'page35240.html', true )
+}
+
+function trivUpdateTOC( bRecurse ) {
+    var i
+}
+
+function trivUpdateEntry() {
+}
+
+function trivResetEntry(entFld) {
+}
+
+function OnDeviceRotate() {
+
+}
+
+function action91436(fn){
+    trivExitPage('page35240.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button91431onUp() {
+  action91436();
+}
+
+function action90585(fn){
+    {cleanupTitle('medizinische_biometrie'); trivExitPage('ObjLayerActionExit()',false);} 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button90580onUp() {
+  action90585();
+}
+
+function action19607(fn){
+    trivExitPage('page35230.html',false); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button19606onUp() {
+  action19607();
+}
+
+function action2436else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action2436(fn){
+    if(!VarCurrentChapterName.equals('~~~null~~~')&&!VarCurrentSectionName.equals('~~~null~~~'))
+    {text2435.actionChangeContents( "" +  VarCurrentChapterName.getValue() + " > " +  VarCurrentSectionName.getValue() + " > " +  VarCurrentPageName.getValue() + "","alignleft","1" ); 
+    }else{ action2436else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action2437else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action2437(fn){
+    if(!VarCurrentChapterName.equals('~~~null~~~')&&VarCurrentSectionName.equals('~~~null~~~'))
+    {text2435.actionChangeContents( "" +  VarCurrentChapterName.getValue() + " > " +  VarCurrentPageName.getValue() + "","alignleft","1" ); 
+    }else{ action2437else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action2438else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action2438(fn){
+    if(VarCurrentChapterName.equals('~~~null~~~')&&VarCurrentSectionName.equals('~~~null~~~'))
+    {text2435.actionChangeContents(VarCurrentPageName.getValue(),'alignleft','1'); 
+    }else{ action2438else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action2439(fn){
+    text2435.actionShow(); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function trivmenu2278_1c_1Click(){
+    trivExitPage('page2286.html',true); 
+}
+
+function trivmenu2278_1c_2Click(){
+    trivExitPage('page35356.html',true); 
+}
+
+function trivmenu2278_1c_3Click(){
+    trivExitPage('page3302.html',true); 
+}
+
+function trivmenu2278_1c_4Click(){
+    trivExitPage('page2851.html',true); 
+}
+
+function trivmenu2278_1c_5Click(){
+    trivExitPage('page2852.html',true); 
+}
+
+function trivmenu2278_1c_6Click(){
+    trivExitPage('page2853.html',true); 
+}
+
+function trivmenu2278_2c_1Click(){
+    trivExitPage('page3040.html',true); 
+}
+
+function trivmenu2278_2c_2Click(){
+    trivExitPage('page24131.html',true); 
+}
+
+function trivmenu2278_2c_3Click(){
+    trivExitPage('page85315.html',true); 
+}
+
+function trivmenu2278_3c_1Click(){
+    trivExitPage('page89444.html',true); 
+}
+
+function trivmenu2278_4c_1Click(){
+    trivExitPage('page89454.html',true); 
+}
+
+function trivmenu2278_4c_2Click(){
+    trivExitPage('page89460.html',true); 
+}
+
+function trivmenu2278_4c_3Click(){
+    trivExitPage('page89466.html',true); 
+}
+
+function trivmenu2278_4c_4Click(){
+    trivExitPage('page89472.html',true); 
+}
+
+function trivmenu2278_4c_5Click(){
+    trivExitPage('page89478.html',true); 
+}
+
+function trivmenu2278_4c_6Click(){
+    trivExitPage('page89483.html',true); 
+}
+
+function trivmenu2278_5c_1Click(){
+    trivExitPage('page89520.html',true); 
+}
+
+function trivmenu2278_5c_2Click(){
+    trivExitPage('page89526.html',true); 
+}
+
+function trivmenu2278_5c_3Click(){
+    trivExitPage('page89539.html',true); 
+}
+
+function trivmenu2278_5c_4Click(){
+    trivExitPage('page89553.html',true); 
+}
+
+function trivmenu2278_5c_5Click(){
+    trivExitPage('page89560.html',true); 
+}
+
+function trivmenu2278_5c_6Click(){
+    trivExitPage('page89568.html',true); 
+}
+
+function trivmenu2278_5c_7Click(){
+    trivExitPage('page89586.html',true); 
+}
+
+function trivmenu2278_5c_8Click(){
+    trivExitPage('page89605.html',true); 
+}
+
+function trivmenu2278_5c_9Click(){
+    trivExitPage('page89622.html',true); 
+}
+
+function trivmenu2278_5c_10Click(){
+    trivExitPage('page89627.html',true); 
+}
+
+function trivmenu2278_5c_11Click(){
+    trivExitPage('page89649.html',true); 
+}
+
+function trivmenu2278_6c_1Click(){
+    trivExitPage('page35229.html',true); 
+}
+
+function trivmenu2278_6c_2Click(){
+    trivExitPage('page21788.html',true); 
+}
+
+function trivmenu2278_6c_3Click(){
+    trivExitPage('page79337.html',true); 
+}
+
+function trivmenu2278_6c_4Click(){
+    trivExitPage('page35230.html',true); 
+}
+
+function trivmenu2278_6c_5Click(){
+    ObjLayerActionGoTo('#top');
+}
+
+function trivmenu2278_6c_6Click(){
+    trivExitPage('page35240.html',true); 
+}
+
+function trivmenu2278_6c_7Click(){
+    trivExitPage('page35232.html',true); 
+}
+
+function trivmenu2278_6c_8Click(){
+    trivExitPage('page35233.html',true); 
+}
+
+function trivmenu2278_6c_9Click(){
+    trivExitPage('page35242.html',true); 
+}
+
+function trivmenu2278_7c_1Click(){
+    trivExitPage('page35243.html',true); 
+}
+
+function UpdateIndicators(){
+  menu2278.updateIndicators();
+}
+if( is.min ){
+button91431 = new ObjButton('button91431', 'Schaltflächen 3',211,600,81.00,21.00,1,23,'div','',1,'',0)
+button91431.setFillStyle(0)
+button91431.initRotateAngle(0,0,0,-0.00,-0.00,80,20)
+button91431.initHasShadow(0)
+button91431.initHasReflection(0)
+button91431.setImages('images/button91431.png', 'images/button91431_down.png', 'images/button91431_over.png','images/button91431_disabled.png');
+button91431.setStateOpacity( 1.00, 1.00, 1.00, 0.60 );
+button91431.addIe8Attr(211.00, 600.00, 81.00, 21.00, 0, 0)
+button91431.addOpacity(100)
+button91431.initImageMap('5,0,75,0,77,0,79,2,80,3,80,5,80,15,80,17,79,19,77,20,75,20,5,20,3,20,2,19,0,17,0,15,0,5,0,3,2,2,3,0,5,0','M 5.00 0.00 L 75.00 0.00 L 76.94 0.38 L 78.56 1.50 L 79.63 3.06 L 80.00 5.00 L 80.00 15.00 L 79.63 16.94 L 78.56 18.56 L 76.94 19.63 L 75.00 20.00 L 5.00 20.00 L 3.13 19.63 L 1.50 18.56 L 0.38 16.94 L 0.00 15.00 L 0.00 5.00 L 0.38 3.06 L 1.50 1.50 L 3.06 0.38 L 5.00 0.00 z')
+button91431.onUp = button91431onUp
+button91431.hasOnUp = true
+button91431.capture=4
+button91431.build()
+
+button90580 = new ObjButton('button90580', 'Schaltflächen 2',700,600,131.00,21.00,1,24,'div','',1,'',0)
+button90580.setFillStyle(0)
+button90580.initRotateAngle(0,0,0,-0.00,-0.00,130,20)
+button90580.initHasShadow(0)
+button90580.initHasReflection(0)
+button90580.setImages('images/button90580.png', 'images/button90580_down.png', 'images/button90580_over.png','images/button90580_disabled.png');
+button90580.setStateOpacity( 1.00, 1.00, 1.00, 0.60 );
+button90580.addIe8Attr(700.00, 600.00, 131.00, 21.00, 0, 0)
+button90580.addOpacity(100)
+button90580.initImageMap('5,0,125,0,127,0,129,2,130,3,130,5,130,15,130,17,129,19,127,20,125,20,5,20,3,20,2,19,0,17,0,15,0,5,0,3,2,2,3,0,5,0','M 5.00 0.00 L 125.00 0.00 L 126.94 0.38 L 128.56 1.50 L 129.63 3.06 L 130.00 5.00 L 130.00 15.00 L 129.63 16.94 L 128.56 18.56 L 126.94 19.63 L 125.00 20.00 L 5.00 20.00 L 3.13 19.63 L 1.50 18.56 L 0.38 16.94 L 0.00 15.00 L 0.00 5.00 L 0.38 3.06 L 1.50 1.50 L 3.06 0.38 L 5.00 0.00 z')
+button90580.onUp = button90580onUp
+button90580.hasOnUp = true
+button90580.capture=4
+button90580.build()
+
+shape62100 = new ObjImage('shape62100','images/shape62100.png','Rechteck1',100,175,750.00,5.00,1,25,'div','',0 )
+shape62100.initRotateAngle(0,0,0,-0.00,-0.00,750,5)
+shape62100.initHasShadow(0)
+shape62100.initHasReflection(0)
+shape62100.addIe8Attr(100.00, 175.00, 750.00, 5.00, 0, 0)
+shape62100.initImageMap(1,'0,5,750,5,750,0,0,0,0,5','M 0.00 5.00 L 750.00 5.00 L 750.00 0.00 L 0.00 0.00 L 0.00 5.00 z')
+shape62100.addBorder(0)
+shape62100.addOpacity(100)
+shape62100.build()
+
+button19606 = new ObjButton('button19606', 'Schaltflächen_b',100,600,81.00,21.00,1,26,'div','',1,'',0)
+button19606.setFillStyle(0)
+button19606.initRotateAngle(0,0,0,-0.00,-0.00,80,20)
+button19606.initHasShadow(0)
+button19606.initHasReflection(0)
+button19606.setImages('images/button19606.png', 'images/button19606_down.png', 'images/button19606_over.png','images/button19606_disabled.png');
+button19606.setStateOpacity( 1.00, 1.00, 1.00, 0.60 );
+button19606.addIe8Attr(100.00, 600.00, 81.00, 21.00, 0, 0)
+button19606.addOpacity(100)
+button19606.initImageMap('5,0,75,0,77,0,79,2,80,3,80,5,80,15,80,17,79,19,77,20,75,20,5,20,3,20,2,19,0,17,0,15,0,5,0,3,2,2,3,0,5,0','M 5.00 0.00 L 75.00 0.00 L 76.94 0.38 L 78.56 1.50 L 79.63 3.06 L 80.00 5.00 L 80.00 15.00 L 79.63 16.94 L 78.56 18.56 L 76.94 19.63 L 75.00 20.00 L 5.00 20.00 L 3.13 19.63 L 1.50 18.56 L 0.38 16.94 L 0.00 15.00 L 0.00 5.00 L 0.38 3.06 L 1.50 1.50 L 3.06 0.38 L 5.00 0.00 z')
+button19606.onUp = button19606onUp
+button19606.hasOnUp = true
+button19606.capture=4
+button19606.build()
+
+text2435 = new ObjText('text2435',null,100,20,550,21,0,27,null,'div',null,0 )
+text2435.initSLine(1)
+text2435.initRotateAngle(0,0,0)
+text2435.initHasOuterShadow(0)
+text2435.initHasTextShadow(0)
+text2435.initHasBorder(0)
+text2435.initHasOutline(0)
+text2435.initHasMargin(0)
+text2435.addIe8Attr(100, 20, 550, 21, 0, 0)
+text2435.addOpacity(100)
+text2435.arrCSSStyles = new Array();
+text2435.arrCSSStyles.push('span.text2435Font1 { font-size:13px; font-family:"Garamond", serif; color:#000000; font-weight:bold;}');
+text2435.arrCSSStyles.push('span.text2435Font2 { font-size:12px; font-family:"Garamond", serif; color:#000000;}');
+text2435.build()
+
+menu2278 = new ObjMenu('menu2278','Menü',null,100,140,609,32,1,28,'333333','000000','ffffff','00ffff','dddddd','c3c3c3','f0f0f0',1,1,0,'div','left',0, null)
+menu2278.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278.addMenu('menu2278c_1',0,0,119,32,0,0,0,0,'menu2278_1','Einführung',12, 2285);
+menu2278.addMenu('menu2278c_2',119,0,173,32,0,0,0,0,'menu2278_3','Daten beschreiben',12, 2287);
+menu2278.addMenu('menu2278c_3',292,0,216,32,0,0,0,0,'menu2278_6','Praktische Statistik mit R',12, 21787);
+menu2278.addMenu('menu2278c_4',508,0,101,32,0,0,0,0,'menu2278_7','Kontakt',12, 2223);
+menu2278.build()
+
+menu2278_1 = new ObjMenu('menu2278_1','',null,100,172,234,189,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278,'div','left',0, null)
+menu2278_1.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_1.addMenu('menu2278_1c_1',0,0,232,25,1,1,1,1,'','Einführung in den Kurs',12, 2286);
+menu2278_1.addMenu('menu2278_1c_2',0,27,232,26,1,0,1,1,'','Deskriptive Datenanalyse',12, 35356);
+menu2278_1.addMenu('menu2278_1c_3',0,54,232,26,1,0,1,1,'','Lernziele',12, 3302);
+menu2278_1.addMenu('menu2278_1c_4',0,81,232,26,1,0,1,1,'','Grundbegriffe der Biometrie',12, 2851);
+menu2278_1.addMenu('menu2278_1c_5',0,108,232,26,1,0,1,1,'','Variablen und Skalen',12, 2852);
+menu2278_1.addMenu('menu2278_1c_6',0,135,232,26,1,0,1,1,'','Datenauswertungen vorbereiten',12, 2853);
+menu2278_1.addMenu('menu2278_1c_7',0,162,232,26,1,0,1,1,'menu2278_2','Selbstkontrollfragen',12, 3039);
+menu2278_1.build()
+
+menu2278_2 = new ObjMenu('menu2278_2','',null,334,334,222,81,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278_1,'div','left',0, null)
+menu2278_2.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_2.addMenu('menu2278_2c_1',0,0,220,25,1,1,1,1,'','Grundbegriffe der Biometrie I',12, 3040);
+menu2278_2.addMenu('menu2278_2c_2',0,27,220,26,1,0,1,1,'','Grundbegriffe der Biometrie 2',12, 24131);
+menu2278_2.addMenu('menu2278_2c_3',0,54,220,26,1,0,1,1,'','Grundbegriffe der Biometrie 3',12, 85315);
+menu2278_2.build()
+
+menu2278_3 = new ObjMenu('menu2278_3','',null,219,172,172,81,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278,'div','left',0, null)
+menu2278_3.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_3.addMenu('menu2278_3c_1',0,0,170,25,1,1,1,1,'','Übersicht ',12, 89444);
+menu2278_3.addMenu('menu2278_3c_2',0,27,170,26,1,0,1,1,'menu2278_4','Kategoriale Variablen',12, 89453);
+menu2278_3.addMenu('menu2278_3c_3',0,54,170,26,1,0,1,1,'menu2278_5','Metrische Variablen',12, 89519);
+menu2278_3.build()
+
+menu2278_4 = new ObjMenu('menu2278_4','',null,391,199,189,162,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278_3,'div','left',0, null)
+menu2278_4.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_4.addMenu('menu2278_4c_1',0,0,187,25,1,1,1,1,'','Nominale Merkmale',12, 89454);
+menu2278_4.addMenu('menu2278_4c_2',0,27,187,26,1,0,1,1,'','Ordinale Merkmale',12, 89460);
+menu2278_4.addMenu('menu2278_4c_3',0,54,187,26,1,0,1,1,'','Quantile',12, 89466);
+menu2278_4.addMenu('menu2278_4c_4',0,81,187,26,1,0,1,1,'','Fünf Punkte und Boxplot',12, 89472);
+menu2278_4.addMenu('menu2278_4c_5',0,108,187,26,1,0,1,1,'','Zwischenstopp!',12, 89478);
+menu2278_4.addMenu('menu2278_4c_6',0,135,187,26,1,0,1,1,'','Selbstkontrollaufgaben',12, 89483);
+menu2278_4.build()
+
+menu2278_5 = new ObjMenu('menu2278_5','',null,391,226,225,297,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278_3,'div','left',0, null)
+menu2278_5.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_5.addMenu('menu2278_5c_1',0,0,223,25,1,1,1,1,'','Einführung',12, 89520);
+menu2278_5.addMenu('menu2278_5c_2',0,27,223,26,1,0,1,1,'','Das Histogramm',12, 89526);
+menu2278_5.addMenu('menu2278_5c_3',0,54,223,26,1,0,1,1,'','Vom Histogramm zur Dichte',12, 89539);
+menu2278_5.addMenu('menu2278_5c_4',0,81,223,26,1,0,1,1,'','Kumulierte Häufigkeiten',12, 89553);
+menu2278_5.addMenu('menu2278_5c_5',0,108,223,26,1,0,1,1,'','Empirische Verteilungsfunktion',12, 89560);
+menu2278_5.addMenu('menu2278_5c_6',0,135,223,26,1,0,1,1,'','Lagemaße metrischer Daten',12, 89568);
+menu2278_5.addMenu('menu2278_5c_7',0,162,223,26,1,0,1,1,'','Eigenschaften der Lagemaße',12, 89586);
+menu2278_5.addMenu('menu2278_5c_8',0,189,223,26,1,0,1,1,'','Streuungsmaße ',12, 89605);
+menu2278_5.addMenu('menu2278_5c_9',0,216,223,26,1,0,1,1,'','Zusammenfassung',12, 89622);
+menu2278_5.addMenu('menu2278_5c_10',0,243,223,26,1,0,1,1,'','Selbstkontrollaufgabe 1',12, 89627);
+menu2278_5.addMenu('menu2278_5c_11',0,270,223,26,1,0,1,1,'','Selbstkontrollaufgabe 2',12, 89649);
+menu2278_5.build()
+
+menu2278_6 = new ObjMenu('menu2278_6','',null,392,172,218,243,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278,'div','left',0, null)
+menu2278_6.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_6.addMenu('menu2278_6c_1',0,0,216,25,1,1,1,1,'','Wer die Wahl hat...',12, 35229);
+menu2278_6.addMenu('menu2278_6c_2',0,27,216,26,1,0,1,1,'','Installation von R',12, 21788);
+menu2278_6.addMenu('menu2278_6c_3',0,54,216,26,1,0,1,1,'','Die R- Console',12, 79337);
+menu2278_6.addMenu('menu2278_6c_4',0,81,216,26,1,0,1,1,'','R- Commander',12, 35230);
+menu2278_6.addMenu('menu2278_6c_5',0,108,216,26,1,0,1,1,'','Datenimport',12, 35231);
+menu2278_6.addMenu('menu2278_6c_6',0,135,216,26,1,0,1,1,'','Numerische Daten auswerten',12, 35240);
+menu2278_6.addMenu('menu2278_6c_7',0,162,216,26,1,0,1,1,'','Nominale Daten beschreiben',12, 35232);
+menu2278_6.addMenu('menu2278_6c_8',0,189,216,26,1,0,1,1,'','Der Auswertungsplan',12, 35233);
+menu2278_6.addMenu('menu2278_6c_9',0,216,216,26,1,0,1,1,'','Zum Abschluss',12, 35242);
+menu2278_6.build()
+
+menu2278_7 = new ObjMenu('menu2278_7','',null,608,172,115,27,0,128,'333333','000000','dddddd','00ffff','f1c232','0078e4','f0f0f0',0,0,menu2278,'div','left',0, null)
+menu2278_7.setIndicators('images/statuscheck.png','images/statuscheck_ip.png','images/statuscheck_ns.png',16);
+menu2278_7.addMenu('menu2278_7c_1',0,0,113,25,1,1,1,1,'','Impressum',12, 35243);
+menu2278_7.build()
+
+progress35130 = new ObjProgress('progress35130','',100,130,750,5,0,5,1,29,'#009e0f','images/progress35130_bar.png','#dddddd','images/progress35130.png',1,64,0,0,0,0,0,'div',0 )
+progress35130.actionSetPos(39)
+progress35130.build()
+
+text41 = new ObjImage('text41','images/text41.png','Einführung in die medizinische Statistik  Deskriptive und explorative Datenanalyse I',100,50,818,81,1,30,'div',null,0 )
+text41.initRotateAngle(0,0,0)
+text41.initHasShadow(0)
+text41.addIe8Attr(100, 50, 818, 81, 0, 0)
+text41.addBorder(0)
+text41.addOpacity(100)
+text41.build()
+
+image55093 = new ObjImage('image55093','images/05-11-_2014_15-07-19.png','Das Kurslogo!',640,8,200,105,1,8,'div',null, 0 )
+image55093.initRotateAngle(0,0,0,0,0,0,0)
+image55093.initHasShadow(0)
+image55093.initHasReflection(0)
+image55093.addIe8Attr(640, 8, 200, 105, 0, 0)
+image55093.initImageMap(1,'0,0,200,0,200,105,0,105,0,0','M 0 0 L 200 0 L 200 105 L 0 105 L 0 0 z')
+image55093.addBorder(0)
+image55093.addOpacity(100)
+image55093.build()
+
+image85812 = new ObjImage('image85812','images/roger_pointingmiddleleftcrop_image85812.png','markus',640,218,185,317,1,9,'div',null, 0 )
+image85812.initRotateAngle(0,0,0,0,0,0,0)
+image85812.initHasShadow(0)
+image85812.initHasReflection(0)
+image85812.addIe8Attr(640, 218, 185, 317, 0, 0)
+image85812.initImageMap(1,'0,0,185,0,185,317,0,317,0,0','M 0 0 L 185 0 L 185 317 L 0 317 L 0 0 z')
+image85812.addBorder(0)
+image85812.addOpacity(100)
+image85812.build()
+
+text83323 = new ObjText('text83323',null,100,556,750,42,1,10,null,'div',null,0 )
+text83323.initSLine(0)
+text83323.initRotateAngle(0,0,0)
+text83323.initHasOuterShadow(0)
+text83323.initHasTextShadow(0)
+text83323.initHasBorder(0)
+text83323.initHasOutline(0)
+text83323.initHasMargin(0)
+text83323.addIe8Attr(100, 556, 750, 42, 0, 0)
+text83323.addOpacity(100)
+text83323.arrCSSStyles = new Array();
+text83323.arrCSSStyles.push('span.text83323Font1 { font-size:13px; font-family:"Verdana", sans-serif; color:#0000ff; text-decoration:underline;}');
+text83323.arrCSSStyles.push('span.text83323Font3 { font-size:13px; font-family:"Verdana", sans-serif; color:#000000;}');
+text83323.arrCSSStyles.push('span.text83323Font4 { font-size:16px; font-family:"Verdana", sans-serif; color:#010101;}');
+text83323.build()
+
+text82174 = new ObjText('text82174',null,100,200,683,40,1,11,null,'div',null,0 )
+text82174.initSLine(0)
+text82174.initRotateAngle(0,0,0)
+text82174.initHasOuterShadow(0)
+text82174.initHasTextShadow(0)
+text82174.initHasBorder(0)
+text82174.initHasOutline(0)
+text82174.initHasMargin(0)
+text82174.addIe8Attr(100, 200, 683, 40, 0, 0)
+text82174.addOpacity(100)
+text82174.arrCSSStyles = new Array();
+text82174.arrCSSStyles.push('span.text82174Font1 { font-size:16px; font-family:"Verdana", sans-serif; color:#333333; font-weight:bold;}');
+text82174.arrCSSStyles.push('span.text82174Font2 { font-size:16px; font-family:"Verdana", sans-serif; color:#010101;}');
+text82174.build()
+
+video82159 = new ObjMedia('video82159','R_Import',104,229,512,294,1,12,'media/r_import.mp4',0,1,0,0,1,0.80,1,'div', 0 );
+video82159.addSkin('mejs-whotube','MediaPlayer/trivantis-whotube-skin.css');
+video82159.BuildMediaString()
+video82159.build()
+
+arObjs.push(button91431);
+arObjs.push(button90580);
+arObjs.push(shape62100);
+arObjs.push(button19606);
+arObjs.push(text2435);
+arObjs.push(menu2278);
+arObjs.push(menu2278_1);
+arObjs.push(menu2278_2);
+arObjs.push(menu2278_3);
+arObjs.push(menu2278_4);
+arObjs.push(menu2278_5);
+arObjs.push(menu2278_6);
+arObjs.push(menu2278_7);
+arObjs.push(progress35130);
+arObjs.push(text41);
+arObjs.push(image55093);
+arObjs.push(image85812);
+arObjs.push(text83323);
+arObjs.push(text82174);
+arObjs.push(video82159);
+
+
+writeStyleSheets(arObjs);}
+// -->
+
+</script>
+</head>
+
+<body onfocus="trivOnFocus()" onResize="ReFlow()">
+
+<script>
+if( is.min ){
+    findWH()
+    var left = (winW > 1009) ? (winW-1009)/2 : 0
+    document.write('<style type="text/css">#pageDIV { position: absolute; top:0px; left: ' + left + 'px; width:1009px; height:662px; clip:rect(0px 1009px 662px 0px); overflow:hidden;' )
+    if(is.iOS)
+		document.write('-webkit-text-size-adjust:100%;')
+    document.write('} </style>')
+    document.write('<DIV id=\"pageDIV\">')
+}
+</script>
+
+<script>
+if( is.min ){
+    document.write(button91431.div)
+    document.write(button90580.div)
+    document.write(shape62100.div)
+    document.write(button19606.div)
+}
+</script>
+
+<div id="text2435"><a id="text2435anc" style="display:block;height:0px;width:0px;"></a>
+<p  style="margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;" >
+<span class="text2435Font1"  >&lt;Lokationanzeige Automatischer Text&gt;</span ><span class="text2435Font2" style="background-color:transparent" >
+</span ></p >
+</div>
+
+<script>
+if( is.min ){
+    document.write(menu2278.div)
+    document.write(menu2278_1.div)
+    document.write(menu2278_2.div)
+    document.write(menu2278_3.div)
+    document.write(menu2278_4.div)
+    document.write(menu2278_5.div)
+    document.write(menu2278_6.div)
+    document.write(menu2278_7.div)
+    document.write(progress35130.div)
+    document.write(text41.div)
+    document.write(image55093.div)
+    document.write(image85812.div)
+}
+</script>
+
+<div id="text83323"><a id="text83323anc" style="display:block;height:0px;width:0px;"></a>
+<p  legLH="1.230" style="margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;" >
+<a href="javascript:trivExitPage('page35240.html',true)"  ><span class="text83323Font1"  >Auf der nächsten Seite </span></a ><span class="text83323Font3"  >lernen Sie, wie Sie numerisch kodierte Variablen mit dem R-Commander auswerten können.</span ><span class="text83323Font4" style="background-color:transparent" >
+</span ></p >
+</div>
+
+<div id="text82174"><a id="text82174anc" style="display:block;height:0px;width:0px;"></a>
+<p  legLH="1.224" style="margin-left:0px;text-indent:0px;line-height:1.224;margin-top:0px;margin-bottom:0px;text-align:left;" >
+<span class="text82174Font1"  >Wir importieren Daten in den R-Commander</span ><span class="text82174Font2" style="background-color:transparent" >
+</span ></p >
+</div>
+
+<script>
+if( is.min ){
+    document.write(video82159.div)
+    document.write("</DIV>")
+}
+</script>
+
+</body>
+</html>
