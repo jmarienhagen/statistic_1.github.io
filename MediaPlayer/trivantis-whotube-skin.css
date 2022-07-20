@@ -1,0 +1,229 @@
+.mejs-container.mejs-whotube {
+
+}
+
+div[id^="video"] .mejs-whotube .mejs-controls {
+	background: url(Sprites/control-whotube.png) 0px 0px;
+	height: 25px;
+	bottom: -25px;
+}
+
+div[id^="audio"] .mejs-whotube .mejs-controls {
+	background: url(Sprites/control-whotube.png) 0px 0px;
+	height: 25px;
+	bottom: 0;
+}
+
+div[id^="vid"] .mejs-whotube .mejs-controls {
+	background: url(Sprites/control-whotube.png) 0px 0px;
+	height: 25px;
+	bottom: -25px;
+}
+
+div[id^="sndtobj"] .mejs-whotube .mejs-controls {
+	background: url(Sprites/control-whotube.png) 0px 0px;
+	height: 25px;
+	bottom: 0;
+}
+
+.mejs-whotube .mejs-time-slider{
+	left:29px;
+	top:5px;
+}
+
+.mejs-whotube .mejs-time{
+	top:1px;
+	position:relative;
+}
+
+.mejs-whotube .mejs-controls .mejs-time-rail .mejs-time-total {
+	background: #383838;
+	background: rgba(0,0,0,0.6);
+	height: 6px;
+}
+.mejs-whotube .mejs-controls .mejs-time-rail .mejs-time-buffering {
+	height: 6px;
+}
+.mejs-whotube .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: #ff0202;
+	background: rgba(255,0,0,0.3);
+	width: 0;
+	height: 6px;
+}
+.mejs-whotube .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #FF0000;
+	width: 0;
+	height: 7px;
+}
+.mejs-whotube .mejs-controls .mejs-time-rail .mejs-time-handle  {
+	display: block;
+	margin: 0;
+	border:none;
+	width: 16px;
+	height: 16px;
+	top: -5px;
+	left: -8px;
+	background: url(Sprites/control-whotube.png) -25px -125px no-repeat;	
+}
+.mejs-whotube .mejs-controls .mejs-time-rail .mejs-time-float {	
+	display: none;
+}
+.mejs-whotube .mejs-controls .mejs-playpause-button  {
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 25px;
+}
+.mejs-whotube .mejs-controls .mejs-playpause-button  button {
+	width: 28px;
+	height: 25px;
+	background: url(Sprites/control-whotube.png) no-repeat 0px -50px;
+	margin: 0;
+	padding: 0;
+}
+.mejs-whotube .mejs-controls .mejs-pause button  {
+	width: 28px;
+	height: 25px;
+	background: url(Sprites/control-whotube.png) 0px -100px no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.mejs-whotube .mejs-controls .mejs-playpause-button  button:hover {
+	background: url(Sprites/control-whotube.png) -28px -50px no-repeat;
+}
+
+.mejs-whotube .mejs-controls .mejs-pause button:hover {
+	background: url(Sprites/control-whotube.png) -28px -100px no-repeat;
+}
+
+.mejs-whotube .mejs-controls .mejs-fullscreen-button  {
+	top: 0px;
+	width: 31px;
+	height: 25px;
+	background : none;
+}
+.mejs-whotube .mejs-controls .mejs-fullscreen-button  button {
+	width: 31px;
+	height: 25px;
+	background: transparent url(Sprites/control-whotube.png) 0px -25px no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.mejs-whotube .mejs-controls .mejs-unfullscreen  button {
+	background: transparent url(Sprites/control-whotube.png) -63px -25px no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.mejs-whotube .mejs-controls .mejs-fullscreen-button  button:hover {
+	background: transparent url(Sprites/control-whotube.png) -31px -25px no-repeat;
+
+}
+.mejs-whotube .mejs-controls .mejs-unfullscreen  button:hover{
+	background: transparent url(Sprites/control-whotube.png) -94px -25px no-repeat;
+}
+
+.mejs-whotube .mejs-controls .mejs-volume-button  {
+	top: 0px;
+	width: 20px;
+	height: 25px;
+}
+.mejs-whotube .mejs-controls .mejs-mute button {
+	background: url(Sprites/control-whotube.png) 0px -75px no-repeat;
+	width: 20px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+}
+.mejs-whotube .mejs-controls .mejs-unmute button {
+	background: url(Sprites/control-whotube.png) -40px -75px no-repeat;
+	width: 20px;
+	height: 25px;
+	margin: 0;
+	padding: 0;	
+}
+.mejs-whotube .mejs-controls .mejs-mute button:hover {
+	background: url(Sprites/control-whotube.png) -20px -75px no-repeat ;
+}
+.mejs-whotube .mejs-controls .mejs-unmute button:hover {
+	background: url(Sprites/control-whotube.png) -60px -75px no-repeat;
+}
+
+.mejs-whotube  .mejs-controls .mejs-volume-button .mejs-volume-slider {
+	background: #DADADA;
+	border: solid 1px #aaa;
+	border-width: 1px 1px 0 1px;
+	width: 20px;
+	height: 65px;
+	top: -65px;
+}
+.mejs-whotube  .mejs-controls .mejs-volume-button .mejs-volume-total {
+	background: #333;
+	background: rgba(50,50,50,0.8);
+	left: 8px;
+	width: 6px;
+	height: 50px;
+}
+.mejs-whotube  .mejs-controls .mejs-volume-button .mejs-volume-current {
+	left: 8px;
+	width: 6px;	
+	background: #FF0202;
+	background: rgba(255,0,0,0.8);
+	height: 50px;
+}
+
+.mejs-whotube  .mejs-controls .mejs-volume-button .mejs-volume-handle {
+	display: none;
+}
+
+.mejs-whotube .mejs-controls .mejs-time span {
+	color: #000000;
+}
+.mejs-whotube .mejs-controls .mejs-currenttime-container  {
+	position: absolute;
+	top: 32px;
+	right: 100px;
+	border: solid 1px #999;
+	background: #333;
+	color: #FFFFFF;
+	padding-top: 2px;
+	border-radius: 3px;
+}
+.mejs-whotube .mejs-controls .mejs-duration-container  {
+
+	position: absolute;
+	top: 32px;
+	right: 65px;
+	border: solid 1px #999;
+	background: #fff;
+	color: #333;
+	padding-top: 2px;
+	border-radius: 3px;
+	color: #333;
+}
+
+.mejs-whotube .mejs-controls .mejs-time  button{
+	color: #333;
+}
+.mejs-whotube .mejs-controls .mejs-captions-button {
+	position:relative;
+}
+.mejs-whotube .mejs-controls .mejs-captions-button button {
+	width:24px;
+	height:24px;
+	left:-3px;
+	top:0px;
+	background: url(Sprites/control-whotube.png) 0px -125px;
+}
+.mejs-whotube .mejs-controls .mejs-stop button{
+
+}
+.mejs-whotube .mejs-controls .mejs-stop button:hover{
+
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #FF0202;
+    background-size: 100% 100%;
+}
